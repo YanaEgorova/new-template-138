@@ -93,9 +93,7 @@
     .header {
         padding: 2rem 0;
     }
-    .nav__item:last-child {
-        display: none;
-    }
+  
     .nav__link:hover {
         color: var(--fourth-brand-color);
     }
