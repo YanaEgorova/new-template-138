@@ -3,7 +3,7 @@ export const products = [
         id: 'product-1',
         name: 'Sticker',
         price: 0.99,
-        image: 'https://m.media-amazon.com/images/I/61WgmLgwuQL._AC_SL1023_.jpg',
+        image: './img/img0.png',
         description: [
             {
                 text: 'Motivational Sticker to get you throughout the day!',
@@ -20,7 +20,7 @@ export const products = [
         id: 'product-2',
         name: 'Product Title',
         price: 5.95,
-        image: 'https://m.media-amazon.com/images/I/61O4ilN5v1S._AC_SL1500_.jpg',
+        image: './img/img1.png',
         description: [
             {
                 text: '',
