@@ -10,6 +10,8 @@
     padding: 15rem 0 10rem;
     position: relative;
     z-index: 2;
+    max-width: 140rem;
+    margin: 0 auto;
 }
 .hero-products {
     padding: 0;

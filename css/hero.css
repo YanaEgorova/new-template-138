@@ -16,7 +16,9 @@
     max-width: 50rem;
 }
 
-
+.policy__wrapper {
+    overflow: hidden;
+}
 .policy {
     padding: 18rem 0 15rem;
     text-align: center;
