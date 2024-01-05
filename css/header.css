@@ -88,20 +88,10 @@ body.open-menu {
     opacity: 1;
 }
 
-.header__flex--right {
+.header__sub-flex {
     display: none;
 }
-
-@media screen and (min-width: 1024px) {
-    .header {
-        padding: 2rem 0;
-    }
-  
-    .nav__link:hover {
-        color: var(--fourth-brand-color);
-    }
-
-    .cart__btn {
+   .cart__btn {
         display: flex;
         align-items: center;
         background-color: transparent;
@@ -113,11 +103,7 @@ body.open-menu {
     .cart__btn:hover {
         background-color: var(--fourth-brand-color);
     }
-
-    .header__flex--right {
-        display: flex;
-    }
-    .cart__btn {
+        .cart__btn {
         cursor: pointer;
         transition: all 0.3s ease-in-out;
     }
@@ -140,6 +126,22 @@ body.open-menu {
     .cart__btn:hover svg {
         fill: var(--sub-text-color);
     }
+@media screen and (min-width: 1440px) {
+    .header {
+        padding: 2rem 0;
+    }
+  
+    .nav__link:hover {
+        color: var(--fourth-brand-color);
+    }
+
+ 
+
+
+    .header__sub-flex {
+        display: flex;
+    }
+
     .header__sub-flex {
         display: flex;
         margin-left: 1rem;
